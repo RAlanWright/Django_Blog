@@ -39,7 +39,22 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # Third part apps
+    'graphene_django',
+
+    # Custom apps
+    'blog.apps.BlogConfig',
 ]
+
+# Graphene
+GRAPHENE = {
+    #To be created schema.py file inside the django_react project folder
+    'SCHEMA': 'django_react.schema.schema',
+    # JWT Authentication
+    'MIDDLEWARE': [
+        'graphql_jwt.middleware.JSONWebTokenMiddleware',
+    ],
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
