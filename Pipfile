@@ -4,9 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-graphene-django = "*"
 django-graphql-jwt = "*"
 django-cors-headers = "*"
+blog = "*"
 
 [dev-packages]
 autopep8 = "*"
