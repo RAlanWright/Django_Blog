@@ -48,8 +48,8 @@ INSTALLED_APPS = [
 
 # Graphene
 GRAPHENE = {
-    #To be created schema.py file inside the django_react project folder
-    'SCHEMA': 'django_react.schema.schema',
+    #To be created schema.py file inside the mysite project folder
+    'SCHEMA': 'mysite.schema.schema',
     # JWT Authentication
     'MIDDLEWARE': [
         'graphql_jwt.middleware.JSONWebTokenMiddleware',
