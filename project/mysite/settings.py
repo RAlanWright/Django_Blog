@@ -48,7 +48,6 @@ INSTALLED_APPS = [
 
 # Graphene
 GRAPHENE = {
-    #To be created schema.py file inside the mysite project folder
     'SCHEMA': 'mysite.schema.schema',
     # JWT Authentication
     'MIDDLEWARE': [

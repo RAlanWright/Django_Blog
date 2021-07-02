@@ -1,6 +1,6 @@
 import graphene
 from graphene_django.types import DjangoObjectType
-from blog.models import Post
+from models import Post
 
 
 class PostType(DjangoObjectType):
