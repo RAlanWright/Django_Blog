@@ -12,8 +12,10 @@ class Query(object):
     all_posts = graphene.List(PostType)
     get_post = graphene.Field(PostType, slug=graphene.String())
 
+
 def resolve_all_posts(self, info, **kwargs):
     return Post.objects.all()
+
 
 def resolve_get_post(self, info, **kwargs):
     slug = kwargs.get('slug')

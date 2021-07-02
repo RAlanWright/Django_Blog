@@ -39,15 +39,7 @@
             ],
             "version": "==4.9.3"
         },
-        "blog": {
-            "hashes": [
-                "sha256:412b6812e8960d7db72195a14816c811a7ee36b7f0edb664fe40e6979fcd1e1e",
-                "sha256:4d9a5728a495451aa0bfddc8b0c1c6cec36be7292762bf17282791d535c2c310"
-            ],
-            "index": "pypi",
-            "version": "==1.0.1"
-        },
-        "certifi": {
+       "certifi": {
             "hashes": [
                 "sha256:2bbf76fd432960138b3ef6dda3dde0544f27cbf8546c458e60baf371917ba9ee",
                 "sha256:50b1e4f8446b06f41be7dd6338db18e0990601dce795c2b1686458aa7e8fa7d8"

@@ -6,7 +6,8 @@ name = "pypi"
 [packages]
 django-graphql-jwt = "*"
 django-cors-headers = "*"
-blog = "*"
+graphene = "*"
+graphene-django = "*"
 
 [dev-packages]
 autopep8 = "*"
