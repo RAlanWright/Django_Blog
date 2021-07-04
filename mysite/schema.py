@@ -1,5 +1,5 @@
 import graphene
-from ..blog import schema
+from mysite.blog import schema
 
 
 class Query(schema.Query, graphene.ObjectType):

@@ -113,11 +113,11 @@ ENV/
 env.bak/
 venv.bak/
 
-# Spyder project settings
+# Spyder mysite settings
 .spyderproject
 .spyproject
 
-# Rope project settings
+# Rope mysite settings
 .ropeproject
 
 # mkdocs documentation
@@ -245,7 +245,7 @@ cmake-build-*/
 # Mongo Explorer plugin
 .idea/**/mongoSettings.xml
 
-# File-based project format
+# File-based mysite format
 *.iws
 
 # IntelliJ
