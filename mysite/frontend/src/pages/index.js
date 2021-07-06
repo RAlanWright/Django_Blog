@@ -15,13 +15,11 @@ export default ({ data }) => (
 
 export const query = graphql`
   query {
-    DJANGO {
-      allPosts {
-        keywords
-        slug
-        summary
-        title
-      }
+    allPosts {
+      keywords
+      slug
+      summary
+      title
     }
   }
 `
